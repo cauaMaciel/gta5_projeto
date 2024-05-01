@@ -1,0 +1,59 @@
+html {
+    color: #0000;
+    background-image: url(../images/gta5background.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 1200px;
+    font-family: "Roboto Condensed", sans-serif;
+    background-size: 120% 120%;
+    
+}
+
+
+
+.cabecalho {
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 0, 0);
+    display: flex;
+    padding: 8px ;
+    text-align: center;
+    border-bottom: 1px solid #666666;
+       
+    
+}
+
+
+
+
+.cabecalho .logo-um {
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    
+
+    
+    
+}
+
+
+
+.menu  a {
+    background-color: aqua; 
+    font-family: "Exo 2", sans-serif;   
+    text-transform: capitalize;
+    font-size: 18px;
+    text-align: center;
+    padding: 25px 20px;
+    transition:  0.1s;
+
+}
+
+.menu a:hover {
+    border-bottom: 4px solid #fff;
+}
+
