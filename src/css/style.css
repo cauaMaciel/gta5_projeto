@@ -98,3 +98,30 @@ body {
     font-size: 25px;
 }
 
+.home .botao-comprar {
+    background: none;
+    width: 500px;
+    margin: 0 auto;
+
+    color: #dedede;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: "Exo +2";
+    font-weight: 600;
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+.home .botao-comprar:hover {
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 21px;
+}
+
+
