@@ -1,15 +1,15 @@
 html {
-    color: #0000;
-    background-image: url(../images/gta5_background.jpg);
+    background-image: url(../images/14721.webp);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
+    background-position: center ;
     
 }
 
 body {
     margin: 0 auto;
     font-family: "Roboto Condensed", sans-serif;
-    
+    background: linear-gradient(-233deg, black 40%, rgba(0, 0, 0, 0) 65%) no-repeat ;
 }
 
 
@@ -43,7 +43,6 @@ body {
 }
 
 .menu  a {
-    background-color: aqua; 
     font-family: "Exo 2", sans-serif;   
     text-transform: capitalize;
     font-size: 18px;
@@ -58,24 +57,22 @@ body {
 }
 
 .home {
-    margin: 300px 80px 0 80px;
-    background-color: #000;
+    margin: 100px 80px 0 80px;
     min-height: calc(100v - 125px);
     gap: 10px;
     align-items: center;
-    
+    padding-bottom: 150px;
 }
 
 .home .imagens {
-    width: 100%;
     align-items: center;
-    justify-content: space-between;
     display: flex;
     flex-direction: row;
+
 }
 
 .home img {
-    max-width: 300;
+    max-width: 200px;
     max-height: 300px;
 
 }
@@ -122,6 +119,7 @@ body {
     border: 2px solid #fff;
     color: #fff;
     font-size: 21px;
+
 }
 
 
