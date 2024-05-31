@@ -1,15 +1,15 @@
 html {
-    background-image: url(../images/14721.webp);
+    background-image: url(../images/gta5fundo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center ;
+    background-position: right ;
     
 }
 
 body {
     margin: 0 auto;
     font-family: "Roboto Condensed", sans-serif;
-    background: linear-gradient(-233deg, black 40%, rgba(0, 0, 0, 0) 65%) no-repeat ;
+    background: linear-gradient(-233deg, rgba(0, 0, 0, 0.946) 40%, rgba(0, 0, 0, 0) 65%) no-repeat ;
 }
 
 
@@ -30,7 +30,7 @@ body {
 
 .cabecalho .logo-um {
     width: 60px;
-    height: 80px;
+    height: 60px;
     margin-left: 80px;
     
     
@@ -100,15 +100,15 @@ body {
     width: 500px;
     margin: 0 auto;
 
-    color: #dedede;
+    color: #fffefee2;
     padding: 20px;
     text-align: center;
     align-items: center;
     justify-content: center;
     display: flex;
-    border: 1px solid #dedede;
+    border: 1px solid #ffffff;
     border-radius: 5px;
-    font-size: 20px;
+    font-size: 25px;
     font-family: "Exo +2";
     font-weight: 600;
     transition: 0.1s;
@@ -118,7 +118,7 @@ body {
 .home .botao-comprar:hover {
     border: 2px solid #fff;
     color: #fff;
-    font-size: 21px;
+    background-color: #ffffff3e;
 
 }
 
