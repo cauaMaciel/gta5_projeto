@@ -1,3 +1,18 @@
+@media(max-width: 1024px){
+    body{
+        background: linear-gradient(-233deg, rgba(0, 0, 0, 0.946) 40%, rgba(0, 0, 0, 0) 85%) no-repeat ;
+    }
+
+    .home .texto p {
+        padding: 0 0 80px 20px;
+        font-size: 23px;
+        
+    }
+}
+
+
+
+
 @media(max-width: 695px){
 
     body{
@@ -5,7 +20,7 @@
     }
 
     .container-menu {
-        margin-right: 30px;
+        display: block;
     }
 
     .cabecalho .logo-um {
@@ -26,6 +41,55 @@
     }
 
     .home .texto h1 {
-        font-size: 35px;
+        font-size: 25px;
     }
+
+    .home .texto p {
+        padding: 0 0 90px 20px;
+        font-size: 23px;
+        
+    }
+
+    
+}
+
+@media(max-width: 470px){
+
+    .cabecalho .logo-um {
+ 
+        margin-left: 20px;
+            
+    }
+
+    .home {
+        margin-left:  20px;
+        margin-right: 20px;
+       
+    }
+
+    .home img {
+        max-width: 120px;
+    
+    }
+
+    .home .texto h1 {
+        font-size: 20px;
+        
+    }
+
+    .home .texto p {
+        
+        font-size: 18px;
+    }
+
+    .home .botao-comprar {
+        
+        width: 300px;
+
+        padding: 20px;
+      
+        font-size: 20px;
+        
+    }
+
 }
