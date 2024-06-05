@@ -1,6 +1,6 @@
 @media(max-width: 1024px){
     body{
-        background: linear-gradient(-233deg, rgba(0, 0, 0, 0.946) 40%, rgba(0, 0, 0, 0) 85%) no-repeat ;
+        background: linear-gradient(-233deg, rgba(0, 0, 0, 0.946) 30%, rgba(0, 0, 0, 0) 85%) no-repeat ;
     }
 
     .home .texto p {
@@ -16,12 +16,10 @@
 @media(max-width: 695px){
 
     body{
-        background: linear-gradient(-233deg, rgba(0, 0, 0, 0.946) 40%, rgba(0, 0, 0, 0) 85%) no-repeat ;
+        background: linear-gradient(-233deg, rgba(0, 0, 0, 0.946) 30%, rgba(0, 0, 0, 0) 85%) no-repeat ;
     }
 
-    .container-menu {
-        display: block;
-    }
+    
 
     .cabecalho .logo-um {
        
@@ -31,7 +29,7 @@
 
     .home{
         
-        padding-bottom: 300px;
+        padding-bottom: 400px;
     }
 
     .home img {
@@ -55,10 +53,30 @@
 
 @media(max-width: 470px){
 
+    body{
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.946) 30%, rgba(0, 0, 0, 0) 85%) no-repeat ;
+    }
+
+   
+
     .cabecalho .logo-um {
  
         margin-left: 20px;
+        width: 40px;
+        height: 40px;
             
+    }
+
+    .container-menu {
+        margin-right: 20px;
+    }
+
+    .menu  a {
+        
+        font-size: 14px;
+        padding: 6px;
+        
+        
     }
 
     .home {
